@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.start-page .action {
+  margin: 20px;
+}
+
+.survey {
+  width: 50%;
+  margin: auto;
+  background: #a4c2f4;
+  border-radius: 50px;
+  border: 1px solid;
+}
+
+.survey .questionPos {
+  text-align: right;
+  margin-right: 5%;
+}
+
+.questions {
+  display: flex;
+  padding: 2% 5%;
+}
+
+.questions .qNo {
+  width: 20%;
+}
+
+.ratings {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.rating {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating:hover {
+  cursor: pointer;
+}
+
+.action {
+  margin: 5% 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionButtons {
+  width: 150px;
+}
+
+.text {
+  width: 60%;
+}
